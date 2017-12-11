@@ -11,15 +11,24 @@ class Sidebar extends Component{
           </div>
           <nav className={`${s.nav_wrapper}`}>
             <ul>
-              <li>
+              <li className={`${s.active}`}>
                 <i className="material-icons">content_paste</i>
               </li>
               <li>
                 <i className="material-icons">event</i>
               </li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>
+                <i className="material-icons">library_books</i>
+              </li>
+              <li>
+                <i className="material-icons">equalizer</i>
+              </li>
+              <li>
+                <i className="material-icons">folder_shared</i>
+              </li>
+              <li>
+                <i className="material-icons">school</i>
+              </li>
             </ul>
           </nav>
         </div>

@@ -60,5 +60,10 @@
 }
 
 .nav_wrapper ul li i[class=material-icons]{
-  font-size: 22px;
+  font-size: 20px;
+}
+
+.active{
+  color: #F6F7F9 !important;
+  background: #93D296;
 }
