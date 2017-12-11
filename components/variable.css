@@ -1,0 +1,19 @@
+:root{
+  /* cores */
+  --color-bg:  #63BB67;
+
+  /* body */
+  --color-bg-body: #F6F7F9;
+
+  /* header variable */
+  --header-height: 45px;
+
+  /* sidebar variable */
+  --sidebar-width: 50px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

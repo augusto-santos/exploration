@@ -1,0 +1,10 @@
+@import '../variable.css';
+
+.wrapper_header{
+  position: fixed;
+  height: var(--header-height);
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: var(--color-bg);
+}
