@@ -1,9 +1,8 @@
 :root{
   /* cores */
   --color-bg:  #63BB67;
-
-  /* body */
-  --color-bg-body: #F6F7F9;
+  --color-body: #F6F7F9;
+  --color-body-sec: #E7E6E7;
 
   /* header variable */
   --header-height: 45px;

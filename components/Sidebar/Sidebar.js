@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Link from '../Link'
 import s from './Sidebar.css'
 
 class Sidebar extends Component{
@@ -11,24 +12,24 @@ class Sidebar extends Component{
           </div>
           <nav className={`${s.nav_wrapper}`}>
             <ul>
-              <li className={`${s.active}`}>
+              <Link to="/" className={`${s.active} ${s.sidebar_items}`}>
                 <i className="material-icons">content_paste</i>
-              </li>
-              <li>
+              </Link>
+              <Link to="/" className={`${s.sidebar_items}`}>
                 <i className="material-icons">event</i>
-              </li>
-              <li>
+              </Link>
+              <Link to="/" className={`${s.sidebar_items}`}> 
                 <i className="material-icons">library_books</i>
-              </li>
-              <li>
+              </Link>
+              <Link to="/" className={`${s.sidebar_items}`}>
                 <i className="material-icons">equalizer</i>
-              </li>
-              <li>
+              </Link>
+              <Link to="/" className={`${s.sidebar_items}`}>
                 <i className="material-icons">folder_shared</i>
-              </li>
-              <li>
+              </Link>
+              <Link to="/" className={`${s.sidebar_items}`}>
                 <i className="material-icons">school</i>
-              </li>
+              </Link>
             </ul>
           </nav>
         </div>

@@ -1,5 +1,4 @@
 import React, { PropTypes } from 'react'
-import Header from '../Header'
 import Sidebar from '../Sidebar'
 import s from './Layout.css'
 

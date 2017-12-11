@@ -1,16 +1,23 @@
-/**
- * React App SDK (https://github.com/kriasoft/react-app)
- *
- * Copyright © 2015-present Kriasoft, LLC. All rights reserved.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
+@import '../../components/variable.css';
+
+.content{
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper_container{
+  display: flex;
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background: var(--color-body);
+  box-shadow: -2px 0 10px 5px rgba(0,0,0,.05);
+}
 
 @media screen and (max-width: 1024px) {
-
   .content {
     padding: 0 16px;
   }
-
 }
