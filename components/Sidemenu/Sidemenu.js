@@ -13,6 +13,16 @@ class Sidemenu extends Component{
             Disciplina Regular
           </div>
         </div>
+        <div className={`${s.rate_wrapper}`}>
+          <div className="stars_rate">
+            <i className="material-icons">star_rate</i>
+            <i className="material-icons">star_rate</i>
+            <i className="material-icons">star_rate</i>
+            <i className="material-icons">star_rate</i>
+            <i className="material-icons">star_rate</i>
+          </div>
+          <div className="num_rate">9/10 <small>(1,578 reviews)</small></div>
+        </div>
       </div> 
     )
   }
